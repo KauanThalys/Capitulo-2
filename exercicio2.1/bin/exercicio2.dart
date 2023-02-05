@@ -3,14 +3,11 @@ import 'dart:io';
 void main() {
   double? mediaFinal;
 
-  print('Digite as três notas que você deseja registrar:');
-  print('Digite a nota 1: ');
+  print('Digite as três notas que você deseja registrar, respectivamente:');
   double nota1 = double.parse(stdin.readLineSync()!);
   nota1 *= 2;
-  print('Digite a nota 2: ');
   double nota2 = double.parse(stdin.readLineSync()!);
   nota2 *= 3;
-  print('Digite a nota 3: ');
   double nota3 = double.parse(stdin.readLineSync()!);
   nota3 *= 5;
 
